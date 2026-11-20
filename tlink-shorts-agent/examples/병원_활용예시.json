@@ -1,0 +1,47 @@
+{
+  "case_id": "hospital-example",
+  "scenario": "hospital",
+  "site_name": "가상 병원",
+  "destination": {
+    "name": "부산"
+  },
+  "equipment": {
+    "name": "스탠드형 녹취 서버",
+    "placement": "병원 통신 공간의 장비 선반 (예시)"
+  },
+  "features": [
+    {
+      "id": "REC-01"
+    },
+    {
+      "id": "REC-02"
+    }
+  ],
+  "reservation_state": "request",
+  "copy": {
+    "question": "교대하면 예약 변경 문의를 다시 찾기 어렵나요?",
+    "answer": "통화 이력을 찾아 변경 요청의 핵심을 확인할 수 있어요.",
+    "ending": "다음 근무자가 변경 요청을 확인해요.",
+    "cta": "티링크 홈페이지에서 도입 상담"
+  },
+  "mode": "example",
+  "character": {
+    "kind": "stand_in",
+    "approved": true
+  },
+  "photo": {
+    "path": null,
+    "relation": "missing",
+    "approved": false
+  },
+  "result": {
+    "kind": "use_example"
+  },
+  "evidence": {},
+  "media": {
+    "qa": null,
+    "travel": null,
+    "travel_approved": false,
+    "voiceover": null
+  }
+}

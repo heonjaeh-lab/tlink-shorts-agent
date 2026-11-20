@@ -1,0 +1,149 @@
+{
+  "case_id": "factory-compact-fictional-demo",
+  "source_case_id": "gangil-provided-animation",
+  "source_clip": "../../../../KakaoTalk_Video_2026-11-20-13-14-58.mp4",
+  "source_reference_frames": {
+    "source_portrait_and_style": {
+      "time_s": 4.68,
+      "crop_xywh": [
+        128,
+        154,
+        196,
+        254
+      ]
+    },
+    "source_travel_segments": {
+      "timebase_fps": 24,
+      "run": [
+        0,
+        65
+      ],
+      "map": [
+        65,
+        111
+      ],
+      "arrival": [
+        111,
+        161
+      ]
+    }
+  },
+  "mode": "example",
+  "scenario": "factory",
+  "site_name": "가상 물류 공장",
+  "site": {
+    "mode": "new",
+    "customer_role": "factory shift supervisor in a simple slate work jacket",
+    "interior": "an illustrated staff briefing room with a cream-painted wall and a window facing the loading courtyard",
+    "qa_action": "The shift supervisor gestures toward coworkers behind the window. The representative listens, then answers with an open palm.",
+    "street": "a fictional industrial access road, low blue warehouse roofs, painted lane markings and a distant loading canopy",
+    "entrance": "a warehouse personnel entrance with a pale-gray steel door, narrow window, blue canopy and yellow painted step",
+    "sign_mode": "none"
+  },
+  "hardware": {
+    "reference_mode": "product_image",
+    "reference_image": "../assets/티링크온_COMPACT_공식제품.jpg",
+    "identity": "one T-LINKON COMPACT handheld PTT radio from the product reference",
+    "appearance": "compact black upright housing, short raised antenna at upper right, small blue color display above the navigation keypad, perforated dark speaker panel low on the front",
+    "grip": "one palm cradles the small radio upright, fingers around the sides with the front and antenna visible; keep the other hand free for the door",
+    "reference_source": "https://www.tlinkcrm.com/images/tlinkon/tlinkon-device-compact.jpg",
+    "scope": "가상 구성의 제품 형태를 보여주는 공식 자료. 실제 공장 설치 사진은 별도 입력."
+  },
+  "map": {
+    "mode": "naver",
+    "origin": {
+      "name": "서울 예시 지점",
+      "lon": 126.9784,
+      "lat": 37.5666
+    },
+    "destination": {
+      "name": "인천 예시 지점",
+      "lon": 126.7054,
+      "lat": 37.4563
+    },
+    "scope": "두 좌표는 새 경로의 입력 형식을 보여 주는 가상 사례 대표점이다. 실제 고객 또는 티링크 출발 주소를 나타내지 않는다."
+  },
+  "qa_beats": [
+    {
+      "start_s": 0,
+      "end_s": 4,
+      "speaker": "현장 반장",
+      "line": "포장 지시가 바뀌면\n어떻게 알리죠?"
+    },
+    {
+      "start_s": 4,
+      "end_s": 9,
+      "speaker": "티링크 대표",
+      "line": "그룹 무전으로\n조원에게 한 번에 알려요."
+    },
+    {
+      "start_s": 9,
+      "end_s": 15,
+      "speaker": "티링크 대표",
+      "line": "언어가 다르면\nAI 통역 옵션을 써요.",
+      "editor_note": "가상 도입 구성. 통역은 별도 선택 기능으로 표시한다."
+    }
+  ],
+  "editing": {
+    "case": "다국적 공장 · 가상 활용 예시",
+    "target_seconds": 30,
+    "site_photo": null,
+    "opening": [
+      {
+        "type": "question",
+        "role": "현장 반장",
+        "disclosure": "가상 공장 사례",
+        "details": [
+          "교대 중인 포장팀에",
+          "바뀐 작업 순서를 알려야 해요."
+        ]
+      },
+      {
+        "type": "answer",
+        "role": "티링크 대표",
+        "disclosure": "티링크온 기능",
+        "details": [
+          "소형 단말의 PTT 버튼을 눌러",
+          "같은 그룹에 음성을 전달해요."
+        ]
+      },
+      {
+        "type": "answer",
+        "role": "티링크 대표",
+        "disclosure": "선택 기능",
+        "details": [
+          "음성을 인식하고 번역한 뒤",
+          "상대 언어로 읽어줘요."
+        ]
+      }
+    ],
+    "closing": [
+      {
+        "type": "practice",
+        "role": "현장 반장",
+        "disclosure": "사용 예시",
+        "seconds": 4,
+        "lines": [
+          "“오후 물량부터",
+          "파란 박스에 담아요.”"
+        ],
+        "details": [
+          "작업조 그룹에 변경 내용을 전달해요."
+        ]
+      },
+      {
+        "type": "measure",
+        "role": "같은 조 작업자",
+        "disclosure": "가상 사용 장면",
+        "lines": [
+          "“파란 박스로",
+          "바꾸겠습니다.”"
+        ],
+        "details": [
+          "작업자가 들은 내용을 다시 말해",
+          "서로 이해한 내용을 확인해요."
+        ]
+      }
+    ]
+  }
+}

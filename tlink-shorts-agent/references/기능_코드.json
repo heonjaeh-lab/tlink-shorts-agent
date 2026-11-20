@@ -1,0 +1,11 @@
+{
+  "REC-01": {"label": "통화 녹취·조회·재생", "source": "https://www.tlinkcrm.com/recording.php"},
+  "REC-02": {"label": "통화 전사·AI 요약", "source": "https://www.tlinkcrm.com/recording.php"},
+  "CRM-01": {"label": "상담 이력·메모", "source": "https://www.tlinkcrm.com/mobile.php"},
+  "SMS-01": {"label": "연동 문자 발송", "source": "https://www.tlinkcrm.com/mobile.php"},
+  "IVR-01": {"label": "자동 안내·전화 연결", "source": "https://www.tlinkcrm.com/bizsolution.php"},
+  "CALLBACK-01": {"label": "콜백", "source": "https://www.tlinkcrm.com/callback.php"},
+  "REPORT-01": {"label": "AI 경영분석 보고서", "source": "https://www.tlinkcrm.com/report.php"},
+  "PTT-01": {"label": "PTT 업무 무전", "source": "https://www.tlinkcrm.com/tlinkon.php"},
+  "PTT-02": {"label": "AI 실시간 통역 옵션", "source": "https://www.tlinkcrm.com/tlinkon.php"}
+}

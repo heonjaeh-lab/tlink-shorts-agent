@@ -1,0 +1,46 @@
+{
+  "case_id": "factory-example",
+  "scenario": "factory",
+  "site_name": "가상 공장",
+  "destination": {
+    "name": "울산"
+  },
+  "equipment": {
+    "name": "러기드형 무전 단말",
+    "placement": "현장 운영팀 지급 후 무전 그룹과 지원 언어 설정 (예시)"
+  },
+  "features": [
+    {
+      "id": "PTT-01"
+    },
+    {
+      "id": "PTT-02"
+    }
+  ],
+  "copy": {
+    "question": "서로 다른 언어로도 무전할 수 있나요?",
+    "answer": "티링크온에 통역 옵션을 적용해 말할 수 있어요.",
+    "ending": "지원 언어로 일상 업무 요청을 전달해요.",
+    "cta": "티링크 홈페이지에서 도입 상담"
+  },
+  "mode": "example",
+  "character": {
+    "kind": "stand_in",
+    "approved": true
+  },
+  "photo": {
+    "path": null,
+    "relation": "missing",
+    "approved": false
+  },
+  "result": {
+    "kind": "use_example"
+  },
+  "evidence": {},
+  "media": {
+    "qa": null,
+    "travel": null,
+    "travel_approved": false,
+    "voiceover": null
+  }
+}

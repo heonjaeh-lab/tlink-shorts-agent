@@ -1,0 +1,241 @@
+{
+  "case_id": "gangil-provided-animation",
+  "source_case_id": "gangil-provided-animation",
+  "source_clip": "소재/강일학원_이동_원본.mp4",
+  "source_reference_frames": {
+    "source_portrait_and_style": {
+      "time_s": 4.68,
+      "crop_xywh": [
+        128,
+        154,
+        196,
+        254
+      ]
+    },
+    "source_hardware_frame": {
+      "time_s": 0.625
+    },
+    "source_travel_segments": {
+      "timebase_fps": 24,
+      "run": [
+        0,
+        65
+      ],
+      "map": [
+        65,
+        111
+      ],
+      "arrival": [
+        111,
+        161
+      ]
+    }
+  },
+  "mode": "example",
+  "scenario": "academy",
+  "site_name": "강일학원",
+  "site": {
+    "mode": "source",
+    "customer_role": "Korean adult English academy director in a muted cardigan",
+    "qa_action": "The representative listens, nods and gestures gently toward a plain blank monitor on the desk.",
+    "interior": "a fictional English academy consultation desk with cream walls, pale oak furniture and soft window light",
+    "street": "the illustrated cream and brick storefronts in the supplied running shot",
+    "entrance": "the supplied brown wooden door with its blue glass panel and cream nameplate",
+    "sign_mode": "preserve",
+    "sign_text": "강일학원"
+  },
+  "hardware": {
+    "reference_mode": "source_depiction",
+    "identity": "the user-described thin, wide 19-inch rackmount appliance shown in the reference animation",
+    "appearance": "flat gray sheet-metal lid, off-white inventory sticker toward the top-left, short lid vents, narrow black front face with central vertical grille and small green/amber indicators on the right",
+    "grip": "approximately torso-width, horizontal at the hip, one arm supporting it, in a shallow three-quarter view",
+    "scope": "사용자가 지정한 소품 외형. 실제 설치 기종과 서비스 활성화는 확인 전."
+  },
+  "map": {
+    "mode": "original_reference"
+  },
+  "qa_beats": [
+    {
+      "start_s": 0,
+      "end_s": 3,
+      "speaker": "원장님",
+      "line": "상담은 많은데,\n왜 등록이 안 될까요?",
+      "editor_note": "가상 상담 활용 예시로 표시한다. 원장이 대표를 바라본다."
+    },
+    {
+      "start_s": 3,
+      "end_s": 7,
+      "speaker": "티링크 대표",
+      "line": "AI 녹취로 통화를 글로\n바꾸고 요약해요.",
+      "ui_image": "소재/공식_기능화면/01_통화관리_AI요약.png",
+      "editor_note": "통화관리의 파란 요약 버튼을 확대한다. 인명·전화번호·날짜 등 사례와 무관한 내용은 가린다."
+    },
+    {
+      "start_s": 7,
+      "end_s": 11,
+      "speaker": "티링크 대표",
+      "line": "고객과 상담원\n키워드를 비교해요.",
+      "ui_image": "소재/공식_기능화면/02_STT통계_고객과상담원.png",
+      "editor_note": "고객·상담원 레이블을 강조한다. 고객 ‘레벨테스트·토요일’, 상담원 ‘교재·수업 방식’은 가상 데이터 자막이다."
+    },
+    {
+      "start_s": 11,
+      "end_s": 15,
+      "speaker": "티링크 대표",
+      "line": "이 통화엔 날짜 제안이\n없었네요.",
+      "ui_image": "소재/공식_기능화면/03_상담이력_성공통화_재생.png",
+      "editor_note": "성공통화의 재생 아이콘과 가상 통화를 함께 보여준다. 학부모 ‘토요일도 테스트 되나요?’ 상담원 ‘확인해서 연락드릴게요.’"
+    }
+  ],
+  "media_files": {
+    "qa": "소재/힉스필드_QA_8초.mp4"
+  },
+  "editing": {
+    "case": "강일학원 애니메이션 · 영어학원 가상 활용 시나리오",
+    "target_seconds": 30,
+    "site_photo": {
+      "file": "소재/설치현장_제공사진.png",
+      "relation": "reference_case",
+      "same_site": false,
+      "approved": true,
+      "label": "설치 참고 사진",
+      "source": "https://www.tlinkcrm.com/images/detail/case-07-eunpyeong-job.jpg"
+    },
+    "opening": [
+      {
+        "type": "question",
+        "role": "원장님",
+        "disclosure": "영어학원 가상 사례",
+        "source_still": 6.62,
+        "qa_clip_start": 0.5
+      },
+      {
+        "type": "answer",
+        "role": "티링크 대표",
+        "disclosure": "상담 예시",
+        "source_still": 4.84,
+        "feature": {
+          "label": "통화관리  ›  STT · 요약",
+          "crop": [
+            1554,
+            387,
+            1735,
+            449
+          ],
+          "display_width": 532
+        },
+        "details": [
+          "요약 예시  ·  레벨테스트 일정 문의"
+        ],
+        "qa_clip_start": 4.0,
+        "layout": "dialogue_feature"
+      },
+      {
+        "type": "answer",
+        "role": "티링크 대표",
+        "disclosure": "기능 화면",
+        "source_still": 4.78,
+        "feature": {
+          "label": "STT 통계  ›  고객 · 상담원 키워드",
+          "crop": [
+            301,
+            77,
+            858,
+            360
+          ]
+        },
+        "details": [
+          "학부모　레벨테스트 · 토요일",
+          "상담원　교재 · 수업 방식"
+        ],
+        "layout": "feature_focus",
+        "example_label": "영어학원 키워드 예시"
+      },
+      {
+        "type": "answer",
+        "role": "티링크 대표",
+        "disclosure": "기능 화면",
+        "source_still": 4.9,
+        "feature": {
+          "label": "상담이력  ›  성공통화 재생",
+          "crop": [
+            238,
+            277,
+            379,
+            301
+          ],
+          "display_width": 475
+        },
+        "details": [
+          "학부모　“토요일도 테스트 되나요?”",
+          "상담원　“확인해서 연락드릴게요.”"
+        ],
+        "layout": "feature_focus",
+        "example_label": "가상 상담 · 발화 예시"
+      }
+    ],
+    "closing": [
+      {
+        "type": "practice",
+        "role": "다음 상담에서",
+        "disclosure": "응대 예시",
+        "seconds": 3.2916666666666665,
+        "source_still": 6.62,
+        "lines": [
+          "“토요일 10시와 2시,",
+          "언제가 편하세요?”"
+        ],
+        "details": [
+          "학부모가 물은 요일에 맞춰",
+          "가능한 시간을 두 개 제안해요."
+        ],
+        "background": "travel"
+      },
+      {
+        "type": "installation",
+        "layout": "photo_result",
+        "seconds": 1.5,
+        "photo_title": "영어학원"
+      },
+      {
+        "type": "check",
+        "layout": "feature_focus",
+        "role": "영어학원",
+        "disclosure": "티링크 기능 화면",
+        "lines": [
+          "다음 상담에서 시간까지",
+          "제안했는지 확인해요."
+        ],
+        "feature": {
+          "label": "상담이력  ›  성공통화 이력",
+          "file": "소재/공식_기능화면/03_상담이력_성공통화_재생.png",
+          "detail_crops": [
+            {
+              "label": "기간 선택",
+              "crop": [
+                16,
+                27,
+                145,
+                54
+              ]
+            },
+            {
+              "label": "통화 다시 듣기",
+              "crop": [
+                797,
+                89,
+                842,
+                142
+              ]
+            }
+          ]
+        },
+        "example_label": "테스트 일정 안내 · 응대 예시",
+        "details": [
+          "이전　“확인하고 연락드릴게요.”",
+          "이후　“토요일 10시 어떠세요?”"
+        ]
+      }
+    ]
+  }
+}

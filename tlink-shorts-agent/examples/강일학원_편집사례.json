@@ -1,0 +1,90 @@
+{
+  "case_id": "gangil-provided-animation",
+  "source_case_id": "gangil-provided-animation",
+  "source_clip": "../../../../KakaoTalk_Video_2026-11-20-13-14-58.mp4",
+  "source_reference_frames": {
+    "source_portrait_and_style": {
+      "time_s": 4.68,
+      "crop_xywh": [
+        128,
+        154,
+        196,
+        254
+      ]
+    },
+    "source_hardware_frame": {
+      "time_s": 0.625
+    },
+    "source_travel_segments": {
+      "timebase_fps": 24,
+      "run": [
+        0,
+        65
+      ],
+      "map": [
+        65,
+        111
+      ],
+      "arrival": [
+        111,
+        161
+      ]
+    }
+  },
+  "mode": "example",
+  "scenario": "academy",
+  "site_name": "강일학원",
+  "site": {
+    "mode": "source",
+    "customer_role": "Korean adult English academy director in a muted cardigan",
+    "qa_action": "The representative listens, nods and gestures gently toward a plain blank monitor on the desk.",
+    "interior": "a fictional English academy consultation desk with cream walls, pale oak furniture and soft window light",
+    "street": "the illustrated cream and brick storefronts in the supplied running shot",
+    "entrance": "the supplied brown wooden door with its blue glass panel and cream nameplate",
+    "sign_mode": "preserve",
+    "sign_text": "강일학원"
+  },
+  "hardware": {
+    "reference_mode": "source_depiction",
+    "identity": "the user-described thin, wide 19-inch rackmount appliance shown in the reference animation",
+    "appearance": "flat gray sheet-metal lid, off-white inventory sticker toward the top-left, short lid vents, narrow black front face with central vertical grille and small green/amber indicators on the right",
+    "grip": "approximately torso-width, horizontal at the hip, one arm supporting it, in a shallow three-quarter view",
+    "scope": "사용자가 지정한 소품 외형. 실제 설치 기종과 서비스 활성화는 확인 전."
+  },
+  "map": {
+    "mode": "original_reference"
+  },
+  "qa_beats": [
+    {
+      "start_s": 0,
+      "end_s": 3,
+      "speaker": "원장님",
+      "line": "상담은 많은데,\n왜 등록이 안 될까요?",
+      "editor_note": "가상 상담 활용 예시로 표시한다. 원장이 대표를 바라본다."
+    },
+    {
+      "start_s": 3,
+      "end_s": 7,
+      "speaker": "티링크 대표",
+      "line": "AI 녹취로 통화를 글로\n바꾸고 요약해요.",
+      "ui_image": "../../../티링크_영어학원_기능화면/01_본편_공식화면/01_통화관리_AI요약.png",
+      "editor_note": "통화관리의 파란 요약 버튼을 확대한다. 인명·전화번호·날짜 등 사례와 무관한 내용은 가린다."
+    },
+    {
+      "start_s": 7,
+      "end_s": 11,
+      "speaker": "티링크 대표",
+      "line": "고객과 상담원\n키워드를 비교해요.",
+      "ui_image": "../../../티링크_영어학원_기능화면/01_본편_공식화면/02_STT통계_고객과상담원.png",
+      "editor_note": "고객·상담원 레이블을 강조한다. 고객 ‘레벨테스트·토요일’, 상담원 ‘교재·수업 방식’은 가상 데이터 자막이다."
+    },
+    {
+      "start_s": 11,
+      "end_s": 15,
+      "speaker": "티링크 대표",
+      "line": "이 통화엔 날짜 제안이\n없었네요.",
+      "ui_image": "../../../티링크_영어학원_기능화면/01_본편_공식화면/03_상담이력_성공통화_재생.png",
+      "editor_note": "성공통화의 재생 아이콘과 가상 통화를 함께 보여준다. 학부모 ‘토요일도 테스트 되나요?’ 상담원 ‘확인해서 연락드릴게요.’"
+    }
+  ]
+}
